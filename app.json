@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "App Receitas",
+    "description": "Busca receitas por ingredientes",
+    "slug": "app-receitas",
+    "privacy": "unlisted",
+    "sdkVersion": "30.0.0",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/receitas.png",
+    "loading": {
+      "icon": "./assets/icons/receitas.png",
+      "hideExponentText": false
+    },
+    "splash": {
+      "image": "./assets/icons/receitas.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gpaiva.receitas"
+    },
+    "android": {
+      "package": "com.gpaiva.receitas"
+    }
+  }
+}
